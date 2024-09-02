@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Web</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+    <header>
+    </header>
+    <main id="container">
+        <div id="lado1">
+            <h1>PET TELE</h1>
+            <h2>Parametros</h2>
+            <form action="apresentacao.php" method="GET">
+                <fieldset>
+                        <div class="radio">
+                            <input type="radio" name="parametro" value="nome" id="idnome">
+                            <label for="idnome">Nome</label>
+                        </div>
+    
+                        <div class="radio">
+                            <input type="radio" name="parametro" value="nascimento" id="idnasc">
+                            <label for="idnasc">Nascimento</label>
+                        </div>
+    
+                        <div class="radio">
+                            <input type="radio" name="parametro" value="matricula" id="idmat">
+                            <label for="idmat">Matrícula</label>
+                        </div>
+    
+                        <div class="radio">
+                            <input type="radio" name="parametro" value="anoIngresso" id="idano">
+                            <label for="idano">Ano de Ingresso</label>
+                        </div>
+    
+                        <div class="radio">
+                            <input type="radio" name="parametro" value="peIngresso" id="idpe">
+                            <label for="idpe">Período de Ingresso</label>
+                        </div>
+    
+                        <div class="radio">
+                            <input type="radio" name="parametro" value="anoPeIngresso"  id="idanope">
+                            <label for="idanope">Ano e período de Ingresso</label>
+                        </div>
+                
+                        <div class="radio">
+                            <input type="radio" name="parametro" value="curso" id="idcurso">
+                            <label for="idcurso">Curso</label>
+                        </div>
+    
+                        <div class="radio">
+                            <input type="radio" name="parametro" value="cr" id="idcr">
+                            <label for="idcr">CR</label>
+                        </div>
+    
+                        <div class="radio">
+                            <input type="radio" name="parametro" value="disciplinas" id="idDisciplinas">
+                            <label for="idDisciplinas">Estado do Histórico</label>
+                        </div>
+    
+                </fieldset>
+                <div id="idBotoes">
+                    <button id="enviar" type="submit">ENVIAR</button>
+                    <button id ="limpar" type="reset">LIMPAR</button>
+                </div>
+        </div>
+        <div id="lado2">
+            <h1>PET TELE</h1><br>
+            <hr><br>
+            <p>Escolha um dos parametros ao lado conferir a apresentação dos dados. </p><br>
+            <a href="">Mais Informações</a> | <a href="">Contato</a>
+        </div>
+    </main>
+
+</body>
+</html>

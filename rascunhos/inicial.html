@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Web</title>
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+</head>
+<body>
+    <header>
+    </header>
+    <main id="container">
+        <div id="lado1">
+            <h1 class="titulo">Pet Tele</h1>
+            <br>
+            <p>Escolha dentre os parâmetros a seguir os que deseja serem mostrados acerca dos participantes: </p>
+            <form action="info.php" method="GET">
+                <fieldset>
+                        <div>
+                            <input type="checkbox" name="nome" id="idnome">
+                            <label for="idnome">Nome</label>
+                        </div>
+    
+                        <div>
+                            <input type="checkbox" name="nasc" id="idnasc">
+                            <label for="idnasc">Nascimento</label>
+                        </div>
+    
+                        <div>
+                            <input type="checkbox" name="mat" id="idmat">
+                            <label for="idmat">Matrícula</label>
+                        </div>
+    
+                        <div>
+                            <input type="checkbox" name="ano" id="idano">
+                            <label for="idano">Ano de Ingresso</label>
+                        </div>
+    
+                        <div>
+                            <input type="checkbox" name="pe" id="idpe">
+                            <label for="idpe">Período de Ingresso</label>
+                        </div>
+    
+                        <div>
+                            <input type="checkbox" name="anope" id="idanope">
+                            <label for="idanope">Ano e período de Ingresso</label>
+                        </div>
+                
+                        <div>
+                            <input type="checkbox" name="curso" id="idcurso">
+                            <label for="idcurso">Curso</label>
+                        </div>
+    
+                        <div>
+                            <input type="checkbox" name="cr" id="idcr">
+                            <label for="idcr">CR</label>
+                        </div>
+    
+                        <div>
+                            <input type="checkbox" name="disciplinas" id="idDisciplinas">
+                            <label for="idDisciplinas">Estado do Histórico</label>
+                        </div>
+    
+                </fieldset>
+                <div id="idBotoes">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+        </div>
+        <div id="lado2">
+            
+        </div>
+    </main>
+
+</body>
+</html>
