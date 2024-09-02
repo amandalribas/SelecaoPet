@@ -7,18 +7,18 @@
         "disciplinas":"De 5, não fez 0."
     },
     {
-        "nome": "Juliana da Silva Leal",
-        "nascimento": ["24", "02", "2003"],
-        "matricula": ["2", "22", "041", "010"],
-        "cr": 7.60,
-        "disciplinas": "De 20, não fez 1. P2: (não fez Física_Experimental_P2 I; atrasou Física_Experimental_II_P3; compensou com Bancos_de_Dados_I)."
-    },
-    {
         "nome": "Pedro Santos Lopes",
         "nascimento": ["03", "08", "2002"],
         "matricula": ["1", "22", "031", "023"],
         "cr": 8.92,
         "disciplinas": "De 28, não fez 2. P4: (não fez Engenharia_de_Software_P4; atrasou Projeto_de_Software_P5; compensou com Topicos_em_Engenharia_de_Software_P5). P5: (não fez Redes_de_Computadores_I_P5; atrasou Redes_de_Computadores_II_P6; compensou com Sociologia_Do_Trabalho)"
+    },
+    {
+        "nome": "Juliana da Silva Leal",
+        "nascimento": ["24", "02", "2003"],
+        "matricula": ["2", "22", "041", "010"],
+        "cr": 7.60,
+        "disciplinas": "De 20, não fez 1. P2: (não fez Física_Experimental_P2 I; atrasou Física_Experimental_II_P3; compensou com Bancos_de_Dados_I)."
     },
     {
         "nome": "Danilo Souza Campos.",
