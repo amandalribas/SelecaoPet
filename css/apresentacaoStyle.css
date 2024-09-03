@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Cor de fundo da página */
+    background-size: cover;
+
+}
+
+main {
+    width: 80%;
+    max-width: 1200px; 
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+h1{
+    text-transform: uppercase;
+}

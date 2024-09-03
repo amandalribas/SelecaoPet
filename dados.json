@@ -25,6 +25,13 @@
         "nascimento": ["30", "12", "2004"],
         "matricula": ["1", "23", "041", "007"],
         "cr": 6.74,
-        "disciplinas": "De 21, nao fez 1. P3: (não fez Redes_Locais_e_de_Acesso_P3; atrasou Interconexão_de_Redes_I_P4; compensou com Elementos_de_Gestao)."
+        "disciplinas": "De 21, não fez 1. P3: (não fez Redes_Locais_e_de_Acesso_P3; atrasou Interconexão_de_Redes_I_P4; compensou com Elementos_de_Gestao)."
+    },
+    {
+        "nome": "Gabriel Nogueira Leite",
+        "nascimento": ["12","11","2005"],
+        "matricula": ["2","23","031","025"],
+        "cr": 7.23,
+        "disciplinas": "De 16, não fez 0."
     }
 ]
