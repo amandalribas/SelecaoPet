@@ -31,6 +31,7 @@ body{
 
 
 main{
+    max-width: 1200px; 
     background-color: var(--branco);
     height: 70vh;
     margin: 100px auto;

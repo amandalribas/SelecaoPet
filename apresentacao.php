@@ -14,6 +14,8 @@ $dados = json_decode($dadosJson, true);
     <title>Informações dos Alunos</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/apresentacaoStyle.css">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+
 </head>
 <body>
     <main>
@@ -26,9 +28,9 @@ $dados = json_decode($dadosJson, true);
                 "nome" => function($dados) {echo"Classificado na ordem alfabética de nomes.<br><br>"; alfabetica($dados); },
                 "nascimento" => function($dados) {echo"Classificado pela ordem decrescente, do mais velho, ao mais novo.<br><br>"; idade($dados);}, //ordem crescente
                 "matricula" => function($dados) {echo "Classificado pela ordem crescente dos últimos três dígitos da matrícula.<br><br>" ;crescente($dados, "matricula", 3); },
-                "anoIngresso" => function($dados) {echo "Classficiado pela ordem crescente do ano de matrícula, sem considerar o período.<br><br>"; crescente($dados, "matricula", 1); },
-                "peIngresso" => function($dados) {echo"Classificado pela ordem crescente do período do ano de ingresso, sem considerar o ano. <br><br>"; crescente($dados, "matricula", 0); },
-                "anoPeIngresso" => function($dados) {
+                "Ano de Ingresso" => function($dados) {echo "Classficiado pela ordem crescente do ano de matrícula, sem considerar o período.<br><br>"; crescente($dados, "matricula", 1); },
+                "Período de Ingresso" => function($dados) {echo"Classificado pela ordem crescente do período do ano de ingresso, sem considerar o ano. <br><br>"; crescente($dados, "matricula", 0); },
+                "Ano e Período de Ingresso" => function($dados) {
                     anoPeriodo($dados);
                 },
                 "curso" => function($dados) {echo"Classificado pela ordem crescente do número equivalente ao curso.<br><br>"; crescente($dados, "matricula", 2); },

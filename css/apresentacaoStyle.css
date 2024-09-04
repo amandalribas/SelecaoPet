@@ -17,4 +17,6 @@ main {
 
 h1{
     text-transform: uppercase;
+    color: var(--base);
+    text-align: center;
 }

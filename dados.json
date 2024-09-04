@@ -11,7 +11,7 @@
         "nascimento": ["03", "08", "2002"],
         "matricula": ["1", "22", "031", "023"],
         "cr": 8.92,
-        "disciplinas": "De 28, não fez 2. P4: (não fez Engenharia_de_Software_P4; atrasou Projeto_de_Software_P5; compensou com Topicos_em_Engenharia_de_Software_P5). P5: (não fez Redes_de_Computadores_I_P5; atrasou Redes_de_Computadores_II_P6; compensou com Sociologia_Do_Trabalho)"
+        "disciplinas": "De 28, não fez 2. P4: (não fez Engenharia_de_Software_P4; atrasou Projeto_de_Software_P5; compensou com Topicos_em_Engenharia_de_Software_P5). P5: (não fez Redes_de_Computadores_I_P5; atrasou Redes_de_Computadores_II_P6; compensou com Sociologia_Do_Trabalho)."
     },
     {
         "nome": "Juliana da Silva Leal",
@@ -33,5 +33,33 @@
         "matricula": ["2","23","031","025"],
         "cr": 7.23,
         "disciplinas": "De 16, não fez 0."
+    },
+    {
+        "nome": "Lucas Ferreira Oliveira",
+        "nascimento": ["15", "04", "2001"],
+        "matricula": ["1", "21", "031", "004"],
+        "cr": 8.35,
+        "disciplinas": "De 41, não fez 3. P4: (não fez Banco_de_Dados_I_P4; atrasou Banco_de_Dados_II_P5; compensou com Computação_e_Meio_Ambiente). P4: (não fez Linguagens_de_Programação_P4; atrasou Compiladores_P7; compensou com Linguagens_de_Programação_em_Lógica); P4:(não fez Estatística_Básica; atrasou Avaliação_de_Desempenho_P5; compensou com Topicos_Em_Inteligencia_Artificial_I)."
+    },
+    {
+        "nome": "Ana Paula Moreira Silva",
+        "nascimento": ["07", "11", "2002"],
+        "matricula": ["1", "22", "031", "019"],
+        "cr": 7.92,
+        "disciplinas": "De 22, não fez 2. P3: (não fez Lógica_para_Ciência_da_Computação_P3; atrasou Linguagens_de_Programação_P4; compensou com Introdução_ao_Matlab). P3: (não fez Arquiteturas_de_Computadores; atrasou Sistemas_Operacionais_P4; compensou com Laboratório_de_Programação_de_Dispositivos_Móveis)."
+    },
+    {
+        "nome": "Mariana Fernandes Correia",
+        "nascimento": ["20", "06", "2004"],
+        "matricula": ["2", "23", "031", "015"],
+        "cr": 6.58,
+        "disciplinas": "De 16, não fez 1. P1: (não fez Fundamentos_de_Cálculo_e_Geometria_P1; atrasou Álgebra_Linear_P2; compensou com Processamento_de_Imagens)."
+    },
+    {
+        "nome": "João Henrique Alves",
+        "nascimento": ["18", "09", "2003"],
+        "matricula": ["1", "23", "031", "032"],
+        "cr": 8.47,
+        "disciplinas": "De 25, não fez 1. P2: (não fez Circuitos_Digitais_para_Ciência_da_Computação_P2; atrasou Arquiteturas_de_Computadores_P3; compensou com Libras_I)."
     }
 ]

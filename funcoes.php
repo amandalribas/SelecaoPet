@@ -12,7 +12,7 @@ function imprime($array){
                 echo $ele. "<br>";
             endif;
         }
-        echo "<hr>";
+        echo "<br><hr><br>";
     endforeach;
 }
 
