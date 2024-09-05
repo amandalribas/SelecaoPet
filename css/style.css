@@ -13,6 +13,17 @@
     --fontTitulo: "Oswald", sans-serif;
 }
 
+::-webkit-scrollbar-track {
+    background: var(--base); /* Cor da trilha */
+    border-radius: 15px; /* Bordas arredondadas */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--borda); /* Cor do polegar */
+    border-radius: 15px; /* Bordas arredondadas */
+  }
+  
+
 *{
     font-family: var(--fontBase);
     margin:0px;

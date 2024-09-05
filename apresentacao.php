@@ -25,17 +25,33 @@ $dados = json_decode($dadosJson, true);
             echo "<h1>".htmlspecialchars($parametro). "</h1> <br>";
         
             $funcoes = [
-                "nome" => function($dados) {echo"Classificado na ordem alfabética de nomes.<br><br>"; alfabetica($dados); },
-                "nascimento" => function($dados) {echo"Classificado pela ordem decrescente, do mais velho, ao mais novo.<br><br>"; idade($dados);}, //ordem crescente
-                "matricula" => function($dados) {echo "Classificado pela ordem crescente dos últimos três dígitos da matrícula.<br><br>" ;crescente($dados, "matricula", 3); },
-                "Ano de Ingresso" => function($dados) {echo "Classficiado pela ordem crescente do ano de matrícula, sem considerar o período.<br><br>"; crescente($dados, "matricula", 1); },
-                "Período de Ingresso" => function($dados) {echo"Classificado pela ordem crescente do período do ano de ingresso, sem considerar o ano. <br><br>"; crescente($dados, "matricula", 0); },
-                "Ano e Período de Ingresso" => function($dados) {
-                    anoPeriodo($dados);
+                "nome" => function($dados) {
+                    echo"<p>Classificado na ordem alfabética de nomes.</p><br><br>"; alfabetica($dados); 
                 },
-                "curso" => function($dados) {echo"Classificado pela ordem crescente do número equivalente ao curso.<br><br>"; crescente($dados, "matricula", 2); },
-                "cr" => function($dados) {echo"Classficado pela ordem crescente de CR, Coeficiente de Rendimento. <br><br>";crescente($dados, "cr"); },
-                "disciplinas" => function($dados) {echo"Classificado pela ordem crescente de matérias não feitas.<br><br>"; disciplinas($dados); }
+                "nascimento" => function($dados) {
+                    echo"<p>Classificado pela ordem decrescente, do mais velho, ao mais novo.</p><br><br>"; idade($dados);
+                }, //ordem crescente
+                "matricula" => function($dados) {
+                    echo "<p>Classificado pela ordem crescente dos últimos três dígitos da matrícula.</p><br><br>" ;crescente($dados, "matricula", 3); 
+                },
+                "Ano de Ingresso" => function($dados) {
+                    echo "<p>Classficiado pela ordem crescente do ano de matrícula, sem considerar o período.</p><br><br>"; crescente($dados, "matricula", 1); 
+                },
+                "Período de Ingresso" => function($dados) {
+                    echo"<p>Classificado pela ordem crescente do período do ano de ingresso, sem considerar o ano.</p><br><br>"; crescente($dados, "matricula", 0); 
+                },
+                "Ano e Período de Ingresso" => function($dados) {
+                    echo"<p>Classificado considerando o ano e período de ingresso.</p><br><br>"; anoPeriodo($dados);
+                },
+                "curso" => function($dados) {
+                    echo"<p>Classificado pela ordem crescente do número equivalente ao curso.</p><br><br>"; crescente($dados, "matricula", 2); 
+                },
+                "cr" => function($dados) {
+                    echo"<p>Classficado pela ordem crescente de CR, Coeficiente de Rendimento.</p><br><br>";crescente($dados, "cr"); 
+                },
+                "disciplinas" => function($dados) {
+                    echo"<p>Classificado pela ordem crescente de matérias não feitas.</p><br><br>"; disciplinas($dados); 
+                }
             ];
         
             // Verifica se o parâmetro existe no array de funções e o executa
