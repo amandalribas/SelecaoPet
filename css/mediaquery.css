@@ -1,0 +1,9 @@
+@media screen and (max-width:768px) {
+    
+    #lado2{
+        display: none;
+    }
+    #enviar{
+        width: auto;
+    }
+}

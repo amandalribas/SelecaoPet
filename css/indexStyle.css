@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: "titulo";
+    src: url(../fonts/The\ Bambank\ Script.ttf) format("truetype");
+}
 
 #container{
     display: flex;
@@ -13,8 +17,15 @@
     overflow-y: auto;
 }
 
+h1{
+    font-family: "titulo";
+    font-weight: normal;
+    text-shadow: 0.6px 0.6px 1px var(--borda);
+}
+
 #lado1 h1{
-    color: var(--base);
+    color: var(--sombra);
+    text-align: center;
 }
 
 #lado1 h2{
@@ -33,6 +44,7 @@ fieldset{
 
 .radio:hover{
     background-color: var(--base);
+    background-image: url(../images/background-2.jpeg);
     color: white;
     border-radius: 20px;
 }
@@ -103,6 +115,9 @@ img{
     display: inline-block;
 }
 
+#lado2 h1{
+    padding-bottom: 0vh;
+}
 
 #lado2 a{
     color: var(--branco);
@@ -110,7 +125,7 @@ img{
 }
 
 #lado2 p{
-    padding: 2px 20px 2px 20px;
+    padding: 10px 40px 10px 20px;
 }
 
 #lado2 a:hover{

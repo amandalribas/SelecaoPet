@@ -16,11 +16,16 @@ main {
 }
 
 h1{
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: var(--base);
     text-align: center;
 }
 
 p{
     text-align: center;
+}
+
+#semParametro{
+    text-align: center;
+    padding-top: 40vh;
 }

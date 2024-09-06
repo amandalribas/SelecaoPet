@@ -41,13 +41,13 @@ $dados = json_decode($dadosJson, true);
                     echo"<p>Classificado pela ordem crescente do período do ano de ingresso, sem considerar o ano.</p><br><br>"; crescente($dados, "matricula", 0); 
                 },
                 "Ano e Período de Ingresso" => function($dados) {
-                    echo"<p>Classificado considerando o ano e período de ingresso.</p><br><br>"; anoPeriodo($dados);
+                    echo"<p>Classificado considerando o ano e período de ingresso, do aluno(a) mais antigo da graduação, ao mais novo(a).</p><br><br>"; anoPeriodo($dados);
                 },
                 "curso" => function($dados) {
                     echo"<p>Classificado pela ordem crescente do número equivalente ao curso.</p><br><br>"; crescente($dados, "matricula", 2); 
                 },
                 "cr" => function($dados) {
-                    echo"<p>Classficado pela ordem crescente de CR, Coeficiente de Rendimento.</p><br><br>";crescente($dados, "cr"); 
+                    echo"<p>Classificado pela ordem crescente de CR, Coeficiente de Rendimento.</p><br><br>";crescente($dados, "cr"); 
                 },
                 "disciplinas" => function($dados) {
                     echo"<p>Classificado pela ordem crescente de matérias não feitas.</p><br><br>"; disciplinas($dados); 
@@ -61,7 +61,7 @@ $dados = json_decode($dadosJson, true);
                 echo "Parâmetro não existente.";
             endif;
         else:
-            echo "Nenhum parâmetro escolhido.";
+            echo"<p id='semParametro'>Nenhum parâmetro escolhido.</p>";
         endif;
         ?>
     </main>

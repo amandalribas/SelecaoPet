@@ -4,13 +4,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
+@font-face {
+    font-family: "titulo";
+    src: url(../fonts/The\ Bambank\ Script.ttf) format("truetype");
+}
+
+
+
 :root{
     --branco : hsl(221, 100%, 95%);
     --borda: #023373;
     --sombra: #021e73;
     --base: #286dd4;
     --fontBase: "Roboto";
-    --fontTitulo: "Oswald", sans-serif;
+    --fontTitulo: "titulo", sans-serif;
 }
 
 ::-webkit-scrollbar-track {
@@ -27,7 +34,7 @@
 *{
     font-family: var(--fontBase);
     margin:0px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 
@@ -57,5 +64,6 @@ main{
 h1{
     font-family: var(--fontTitulo), sans-serif;
     padding: 10px;
-    font-size: 38px;
+    font-size: 42px;
+    /*text-shadow: 1px 1px 1.5px var(--sombra);*/
 }
