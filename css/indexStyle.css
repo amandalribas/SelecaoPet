@@ -1,9 +1,20 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: "titulo";
-    src: url(../fonts/The\ Bambank\ Script.ttf) format("truetype");
+::-webkit-scrollbar {
+    width: 12px; 
 }
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--base); 
+    border-radius: 10px; 
+}
+        
+::-webkit-scrollbar-track {
+    background-color: var(--branco); 
+    border-radius: 10px
+}
+
+
 
 #container{
     display: flex;
@@ -11,16 +22,20 @@
 
 #lado1{
     padding: 10px;
-    padding-left: 30px;
+    padding-left: 50px;
     padding-right: 100px;
     max-width: 1200px; 
     overflow-y: auto;
 }
 
+
 h1{
     font-family: "titulo";
-    font-weight: normal;
-    text-shadow: 0.6px 0.6px 1px var(--borda);
+}
+
+#lado1{
+    background-image: url(../images/fundomain.jpg);
+    background-size: cover;
 }
 
 #lado1 h1{
@@ -30,6 +45,10 @@ h1{
 
 #lado1 h2{
     padding: 10px;
+    font-family: "titulo";
+    color: var(--base);
+    font-weight: normal;
+    font-size: x-large;
 }
 
 
@@ -45,6 +64,7 @@ fieldset{
 .radio:hover{
     background-color: var(--base);
     background-image: url(../images/background-2.jpeg);
+    background-position: center center;
     color: white;
     border-radius: 20px;
 }
@@ -89,7 +109,7 @@ button{
 }
 
 #limpar{
-    background-color: var(--branco);
+    background-color: none;
     border: none;
     text-align: justify;
 }
@@ -113,6 +133,8 @@ img{
     text-align: center;
     padding-top: 25vh;
     display: inline-block;
+    position: relative;
+    box-shadow: -4px 0 5px #0c38bb6e;
 }
 
 #lado2 h1{
@@ -136,4 +158,15 @@ img{
     width: 10vw;
     text-align: center;
     margin: auto;
+}
+
+#lado2::before {
+    content: '';
+    position: absolute; 
+    top: 0;
+    left: -5px; 
+    bottom: 0;
+    width: 5px; 
+    background-color: var(--sombraLeve); 
+    box-shadow: 20px 0px 20px var(--sombraLeve); 
 }

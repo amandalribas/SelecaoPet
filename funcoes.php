@@ -2,7 +2,7 @@
 function imprime($array){
     foreach ($array as $indice => $elemento):
         foreach ($elemento as $ind => $ele){
-            echo $ind.": ";
+            echo "<h3 class='opcoes'> ". $ind. ": </h3>";
             if (is_array($ele)):
                 foreach ($ele as $e){
                     echo $e. " ";

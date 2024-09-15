@@ -1,9 +1,26 @@
+
+::-webkit-scrollbar {
+    width: 12px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--base);
+    border-radius: 10px; 
+}
+        
+::-webkit-scrollbar-track {
+    background-color: var(--branco); 
+    border-radius: 10px
+}
+
+
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f0f0f0; /* Cor de fundo da página */
+    background-color: var(--branco);
     background-size: cover;
 
 }
@@ -17,12 +34,26 @@ main {
 
 h1{
     text-transform: capitalize;
-    color: var(--base);
+    color: var(--sombra);
     text-align: center;
+}
+.opcoes{
+    display: inline;
 }
 
 p{
     text-align: center;
+}
+
+hr{
+    border: 0; 
+    height: 1px;
+    background-color: var(--base);
+}
+
+.opcoes{
+    text-transform: capitalize;
+    color: var(--base);
 }
 
 #semParametro{

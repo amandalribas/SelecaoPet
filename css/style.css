@@ -12,24 +12,13 @@
 
 
 :root{
-    --branco : hsl(221, 100%, 95%);
+    --branco : #e5f7ff;
     --borda: #023373;
     --sombra: #021e73;
-    --base: #286dd4;
-    --fontBase: "Roboto";
+    --base: #0f5ccf;
+    --fontBase: "Roboto", sans-serif;
     --fontTitulo: "titulo", sans-serif;
 }
-
-::-webkit-scrollbar-track {
-    background: var(--base); /* Cor da trilha */
-    border-radius: 15px; /* Bordas arredondadas */
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background: var(--borda); /* Cor do polegar */
-    border-radius: 15px; /* Bordas arredondadas */
-  }
-  
 
 *{
     font-family: var(--fontBase);
@@ -63,7 +52,8 @@ main{
 
 h1{
     font-family: var(--fontTitulo), sans-serif;
+    font-weight: normal;
     padding: 10px;
     font-size: 42px;
-    /*text-shadow: 1px 1px 1.5px var(--sombra);*/
+    text-shadow: 1.5px 1.5px 1px var(--borda);
 }

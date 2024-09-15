@@ -25,17 +25,17 @@ $dados = json_decode($dadosJson, true);
             echo "<h1>".htmlspecialchars($parametro). "</h1> <br>";
         
             $funcoes = [
-                "nome" => function($dados) {
+                'nome' => function($dados) {
                     echo"<p>Classificado na ordem alfabética de nomes.</p><br><br>"; alfabetica($dados); 
                 },
                 "nascimento" => function($dados) {
-                    echo"<p>Classificado pela ordem decrescente, do mais velho, ao mais novo.</p><br><br>"; idade($dados);
+                    echo"<p>Classificado pela ordem decrescente, considerando as idades, do mais velho, ao mais novo.</p><br><br>"; idade($dados);
                 }, //ordem crescente
-                "matricula" => function($dados) {
+                "matrícula" => function($dados) {
                     echo "<p>Classificado pela ordem crescente dos últimos três dígitos da matrícula.</p><br><br>" ;crescente($dados, "matricula", 3); 
                 },
                 "Ano de Ingresso" => function($dados) {
-                    echo "<p>Classficiado pela ordem crescente do ano de matrícula, sem considerar o período.</p><br><br>"; crescente($dados, "matricula", 1); 
+                    echo "<p>Classificado pela ordem crescente do ano de matrícula, sem considerar o período.</p><br><br>"; crescente($dados, "matricula", 1); 
                 },
                 "Período de Ingresso" => function($dados) {
                     echo"<p>Classificado pela ordem crescente do período do ano de ingresso, sem considerar o ano.</p><br><br>"; crescente($dados, "matricula", 0); 
