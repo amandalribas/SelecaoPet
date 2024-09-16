@@ -23,7 +23,7 @@
 *{
     font-family: var(--fontBase);
     margin:0px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 
@@ -40,12 +40,12 @@ body{
 main{
     max-width: 1200px; 
     background-color: var(--branco);
-    height: 70vh;
+    height: 75vh;
     margin: 100px auto;
     margin-bottom: auto;
     border: var(--borda) solid 2px;
     box-shadow: var(--sombra) 2px 2px 10px;
-    border-radius: 15px;
+    border-radius: 25px;
     background-size: cover;
     background-attachment: fixed;
 }

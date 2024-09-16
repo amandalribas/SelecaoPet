@@ -36,6 +36,8 @@ h1{
 #lado1{
     background-image: url(../images/fundomain.jpg);
     background-size: cover;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
 }
 
 #lado1 h1{
@@ -44,7 +46,7 @@ h1{
 }
 
 #lado1 h2{
-    padding: 10px;
+    padding: 2px;
     font-family: "titulo";
     color: var(--base);
     font-weight: normal;
@@ -66,7 +68,7 @@ fieldset{
     background-image: url(../images/background-2.jpeg);
     background-position: center center;
     color: white;
-    border-radius: 20px;
+    border-radius: 20px 0px 0px 20px;
 }
 
 
@@ -135,6 +137,8 @@ img{
     display: inline-block;
     position: relative;
     box-shadow: -4px 0 5px #0c38bb6e;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 0px 20px 20px 0px;
 }
 
 #lado2 h1{
